@@ -46,11 +46,14 @@ Proyecto compresión de datos/
 │   ├─ huffman.py
 │   └─ rle.py
 └─ README.md
+```
 
 ## Requisitos
 - **Python 3.8 o superior**
-- **Librerias necesarias:**
-  - pip install PyQt6
-  - pip install Pillow
-  - pip install numpy
+- Librerías Python:
+  ```bash
+  pip install PyQt6
+  pip install Pillow
+  pip install numpy
+  pip install pydub
   - pip install pydub
