@@ -62,7 +62,7 @@ Proyecto compresión de datos/
 ## Cómo ejecutar
 - Clonar el proyecto
 - ejectuar "python main.py"
-- **Se abrirá la ventana principal con 3 botones:
+- Se abrirá la ventana principal con 3 botones:
   - Comprimir texto → Abre la ventana de compresión de texto
   - Comprimir imágenes → Abre la ventana de compresión de imágenes
   - Comprimir audio → Abre la ventana de compresión de audio
