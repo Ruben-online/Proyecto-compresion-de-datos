@@ -56,4 +56,28 @@ Proyecto compresión de datos/
   pip install Pillow
   pip install numpy
   pip install pydub
-  - pip install pydub
+  pip install pydub
+  ```
+  
+## Cómo ejecutar
+- Clonar el proyecto
+- ejectuar "python main.py"
+- **Se abrirá la ventana principal con 3 botones:
+  - Comprimir texto → Abre la ventana de compresión de texto
+  - Comprimir imágenes → Abre la ventana de compresión de imágenes
+  - Comprimir audio → Abre la ventana de compresión de audio
+  
+- Dentro de cada ventana:
+  - Cargar archivo
+  - Comprimir archivo
+  - Visualizar el tamaño
+  - Descomprimir archivo
+  - Volver al menú principal
+
+
+## Notas importantes
+- La compresión RLE funciona mejor con datos simples:
+  - Imágenes con pocos colores o zonas grandes de color uniforme
+  - Audio mono con pocas variaciones (tonos simples, sonidos cortos).
+- La compresión Huffman para texto es eficiente y preserva la información completamente
+- La aplicación está pensada como proyecto educativo y demostrativo de algoritmos de compresión
